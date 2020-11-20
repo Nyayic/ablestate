@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import { MenuItems } from './MenuItems';
 import './Navbar.css';
+import { Button } from '../Button';
 
 class Navbar extends Component{
     //menu icon state
@@ -30,9 +31,8 @@ class Navbar extends Component{
                             </li>
                         )
                     })}
-
-                   
                 </ul>
+                <Button>Get started</Button>
             </nav>
         )
     }
