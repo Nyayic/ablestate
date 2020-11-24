@@ -1,13 +1,27 @@
-import React, { Component } from 'react';
-// import Toolbar from '@material-ui/core/Toolbar'
-import Navbar from './components/Navbar/Navbar';
+import React from 'react';
+import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Sidebar from './components/Sidebar';
+// import Home from './pages';
+// import About from './pages/about';
+// import Services from './pages/devlopers';
+// import Contact from './pages/contact';
+// import SignUp from './pages/login';
 
-
-class App extends Component {
-  render() {
-    return (
-           <Navbar/>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <Sidebar/>,
+      <Navbar />
+      {/* <Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/about' component={About} />
+        <Route path='/services' component={Services} />
+        <Route path='/contact-us' component={Contact} />
+        <Route path='/sign-up' component={SignUp} />
+      </Switch> */}
+    </Router>
+  );
 }
 export default App;
