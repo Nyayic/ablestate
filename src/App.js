@@ -1,27 +1,28 @@
 import React from 'react';
-import './App.css';
-import Navbar from './components/Navbar';
+import GlobalStyle from './globalStyles';
+import Home from './pages/About/About';
+import Services from './pages/Services/Services';
+import Products from './pages/Products/Products';
+import SignUp from './pages/SignUp/SignUp';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Sidebar from './components/Sidebar';
-// import Home from './pages';
-// import About from './pages/about';
-// import Services from './pages/devlopers';
-// import Contact from './pages/contact';
-// import SignUp from './pages/login';
+import ScrollToTop from './components/ScrollToTop';
+import { Navbar, Footer } from './components';
 
 function App() {
   return (
     <Router>
-      <Sidebar/>,
+      <GlobalStyle />
+      <ScrollToTop />
       <Navbar />
-      {/* <Switch>
+      <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/about' component={About} />
         <Route path='/services' component={Services} />
-        <Route path='/contact-us' component={Contact} />
+        <Route path='/products' component={Products} />
         <Route path='/sign-up' component={SignUp} />
-      </Switch> */}
+      </Switch>
+      <Footer />
     </Router>
   );
 }
+
 export default App;
