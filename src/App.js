@@ -1,8 +1,8 @@
 import React from 'react';
 import GlobalStyle from './globalStyles';
 import Home from './pages/About/About';
-import Services from './pages/Services/Services';
-import Products from './pages/Products/Products';
+import Services from './pages/Contact/Contact';
+import Products from './pages/Login/Login';
 import SignUp from './pages/SignUp/SignUp';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';

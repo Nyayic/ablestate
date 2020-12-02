@@ -45,25 +45,55 @@ function Navbar() {
               <NavIcon />
               Ablestate
             </NavLogo>
+
             <MobileIcon onClick={handleClick}>
               {click ? <FaTimes /> : <FaBars />}
             </MobileIcon>
+
             <NavMenu onClick={handleClick} click={click}>
+
               <NavItem>
                 <NavLinks to='/about' onClick={closeMobileMenu}>
                   About
                 </NavLinks>
               </NavItem>
+
               <NavItem>
-                <NavLinks to='/services' onClick={closeMobileMenu}>
-                  Services
+                <NavLinks to='/developers' onClick={closeMobileMenu}>
+                  Developers
                 </NavLinks>
               </NavItem>
+
               <NavItem>
-                <NavLinks to='/products' onClick={closeMobileMenu}>
-                  Products
+                <NavLinks to='/employers' onClick={closeMobileMenu}>
+                  Employers
                 </NavLinks>
               </NavItem>
+
+              <NavItem>
+                <NavLinks to='/premium' onClick={closeMobileMenu}>
+                  Premium
+                </NavLinks>
+              </NavItem>
+            
+              <NavItem>
+                <NavLinks to='/contact-us' onClick={closeMobileMenu}>
+                  Contact Us
+                </NavLinks>
+              </NavItem>
+
+              <NavItem>
+                <NavLinks to='/news' onClick={closeMobileMenu}>
+                  News
+                </NavLinks>
+              </NavItem>
+
+              <NavItem>
+                <NavLinks to='/login' onClick={closeMobileMenu}>
+                  Login
+                </NavLinks>
+              </NavItem>
+              
               <NavItemBtn>
                 {button ? (
                   <NavBtnLink to='/sign-up'>
