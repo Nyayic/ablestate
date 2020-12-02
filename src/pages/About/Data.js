@@ -4,14 +4,14 @@ export const homeObjOne = {
   lightTopLine: true,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Marketing Agency',
-  headline: 'Lead Generation Specialist for Online Businesses',
+  // topLine: 'Marketing Agency',
+  headline: 'Get Access to World Class Technical Talent',
   description:
-    'We help business owners increase their revenue. Our team of unique specialist can help you achieve your business goals.',
-  buttonLabel: 'Get Started',
+    'Ablestate connects you to a whole world of talent and helps you conduct assessments on your behalf',
+  buttonLabel: 'Are you Hiring?',
   imgStart: '',
   img: require('../../images/svg-1.svg'),
-  alt: 'Credit Card',
+  alt: 'Hiring',
   start: ''
 };
 

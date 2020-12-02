@@ -1,14 +1,14 @@
 import React from 'react';
 import { InfoSection } from '../../components';
-import { homeObjOne, homeObjTwo } from './Data';
+import { homeObjOne, homeObjThree } from './Data';
 
-function Login() {
+function Developers() {
   return (
     <>
       <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
+      <InfoSection {...homeObjThree} />
     </>
   );
 }
 
-export default Login;
+export default Developers;
