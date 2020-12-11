@@ -33,6 +33,7 @@ function InfoSection({
       <InfoSec lightBg={lightBg}>
         <Container>
           <InfoRow imgStart={imgStart}>
+            
             <InfoColumn>
               <TextWrapper>
                 <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
@@ -45,11 +46,13 @@ function InfoSection({
                 </Link>
               </TextWrapper>
             </InfoColumn>
+
             <InfoColumn>
               <ImgWrapper start={start}>
                 <Img src={img} alt={alt} />
               </ImgWrapper>
             </InfoColumn>
+
           </InfoRow>
         </Container>
       </InfoSec>

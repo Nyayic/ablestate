@@ -6,7 +6,7 @@ import {
   Nav,
   NavbarContainer,
   NavLogo,
-  NavIcon,
+  NavImage,
   MobileIcon,
   NavMenu,
   NavItem,
@@ -42,7 +42,7 @@ function Navbar() {
         <Nav>
           <NavbarContainer>
             <NavLogo to='/' onClick={closeMobileMenu}>
-              <NavIcon />
+            <NavImage/>
               Ablestate
             </NavLogo>
 
