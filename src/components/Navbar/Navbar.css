@@ -1,51 +1,57 @@
 .navItems{
-    margin-left: 200px;
-    font-size: large;
+    /* margin-left: 200px;
+    font-size: large; */
     /* position: absolute; */
 }
-.main-nav{
-    position: absolute;
-width: 1275px;
-height: 84px;
-left: 99px;
-top: 0px;
 
-background: #1C2327;
-border: 1px solid #000000;
-box-sizing: border-box;
+.main-nav{
+/*  position: absolute;
+    width: 1275px;
+    height: 84px;
+    left: 99px;
+    top: 0px; 
+*/
+
+    background: #1C2327;
+    border: 1px solid #000000;
+    box-sizing: border-box;
 }
 
 .right-nav{
     margin-left: 50px; 
     font-size: 20px;
 }
-.signup-btn{
+.signup-btn.btn-primary{
+    /* 
     position: absolute;
     width: 120px;
     height: 84px;
     left: 1154px;
     top: 0px;
+    */
 
-    background: #E35F0D;
+    background-color: #E35F0D;
     border-radius: 5px;
+    border: none;
 }
+
+/* 
 .signup-btn.p{
     position: absolute;
-width: 125px;
-height: 26px;
-left: 1219px;
-top: 30px;
+    width: 125px;
+    height: 26px;
+    left: 1219px;
+    top: 30px; 
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+} */
 
-font-family: Roboto Slab;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 26px;
-
-color: #FFFFFF;
-}
 .login{
-    position: absolute;
+/*     position: absolute;
     width: 55px;
     height: 26px;
     left: 1031px;
@@ -57,5 +63,5 @@ color: #FFFFFF;
     font-size: 20px;
     line-height: 26px;
 
-color: #FFFFFF;
+color: #FFFFFF; */
 }

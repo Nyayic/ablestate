@@ -1,14 +1,13 @@
-import './App.css';
-import BNavbar from './components/Navbar/Navbar';
-import InfoSection from './components/InfoSection/InfoSection';
+import BNavbar from './components/Navbar/Navbar'
+import InfoSection from './components/InfoSection/InfoSection'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <>
       <BNavbar/>
       <InfoSection/>
-    </div>
-  );
+    </>
+  )
 }
 
-export default App;
+export default App

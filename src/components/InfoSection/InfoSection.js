@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import './InfoSection.css';
 
-function Infosection(){
+function Infosection() {
     return(
         <Container fluid className="bg-dark">
             <Row>
@@ -24,23 +24,23 @@ function Infosection(){
                     <img src={colleages} className="info-image" fluid alt="Are you hiring?"/>
                 </Col>
             </Row>
+
             <h2 className="join">Join Thousands of companies hiring through the Ablestate Platform</h2>
             
             <div  className="container search mt-4">
-            <Form >
-                <Form.Row className="row-items">
-                    <Col className="col-sm-6">
-                    <Form.Control placeholder="Job, Skill, Developer" />
-                    </Col>
-                    <Col className="col-sm-3">
-                    <Form.Control placeholder="Location" />
-                    </Col>
-                    <Col className="col-sm-3">
-                    <Button type="submit" className="btn btn-dark">Search Talent</Button>
-                    </Col>
-                </Form.Row>
+                <Form >
+                    <Form.Row className="row-items">
+                        <Col className="col-sm-6">
+                        <Form.Control placeholder="Job, Skill, Developer" />
+                        </Col>
+                        <Col className="col-sm-3">
+                        <Form.Control placeholder="Location" />
+                        </Col>
+                        <Col className="col-sm-3">
+                        <Button type="submit" className="btn btn-dark">Search Talent</Button>
+                        </Col>
+                    </Form.Row>
                 </Form>
-
             </div>
 
             <div className="container">
@@ -48,7 +48,6 @@ function Infosection(){
                 <h3 className="featured-devs-intro">Source active engineers fit for your Team</h3>
             </div>
             
-
         </Container>
     );
 }

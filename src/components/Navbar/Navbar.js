@@ -30,9 +30,7 @@ function BNavbar(){
 
               <Nav>
                 <Nav.Link className="login" href="/login">Login</Nav.Link>
-                <Button eventKey={2} href="/signup" className="signup-btn">
-                  <p>Get Started</p>
-                </Button>
+                <Button eventKey={2} href="/signup" className="signup-btn">Get Started</Button>
               </Nav>
 
             </Navbar.Collapse>
