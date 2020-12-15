@@ -1,0 +1,61 @@
+.navItems{
+    margin-left: 200px;
+    font-size: large;
+    /* position: absolute; */
+}
+.main-nav{
+    position: absolute;
+width: 1275px;
+height: 84px;
+left: 99px;
+top: 0px;
+
+background: #1C2327;
+border: 1px solid #000000;
+box-sizing: border-box;
+}
+
+.right-nav{
+    margin-left: 50px; 
+    font-size: 20px;
+}
+.signup-btn{
+    position: absolute;
+    width: 120px;
+    height: 84px;
+    left: 1154px;
+    top: 0px;
+
+    background: #E35F0D;
+    border-radius: 5px;
+}
+.signup-btn.p{
+    position: absolute;
+width: 125px;
+height: 26px;
+left: 1219px;
+top: 30px;
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 26px;
+
+color: #FFFFFF;
+}
+.login{
+    position: absolute;
+    width: 55px;
+    height: 26px;
+    left: 1031px;
+    top: 37px;
+
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+
+color: #FFFFFF;
+}

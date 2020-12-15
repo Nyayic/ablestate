@@ -1,63 +1,55 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Container, Button } from '../../globalStyles';
-import {
-  InfoSec,
-  InfoRow,
-  InfoColumn,
-  TextWrapper,
-  TopLine,
-  Heading,
-  Subtitle,
-  ImgWrapper,
-  Img
-} from './InfoSection.elements';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import Image from '../../images/colleages.jpg';
+import Form from 'react-bootstrap/Form'
+import './InfoSection.css';
+import { Button } from 'react-bootstrap';
 
-function InfoSection({
-  primary,
-  lightBg,
-  topLine,
-  lightTopLine,
-  lightText,
-  lightTextDesc,
-  headline,
-  description,
-  buttonLabel,
-  img,
-  alt,
-  imgStart,
-  start
-}) {
-  return (
-    <>
-      <InfoSec lightBg={lightBg}>
-        <Container>
-          <InfoRow imgStart={imgStart}>
+function Infosection(){
+    return(
+        <Container fluid className="bg-dark">
+            <Row>
+                <Col>
+                <h1 className="header">Get acess to <br/> World-class <br/> Technical Talent </h1>
+                <p className="content"> Ablestate connects you to a <br/>
+                    whole world of talent and <br/>
+                    helps you conduct <br/>
+                    assessments on your behalf.
+                </p>
+                <a href="#signup" className="hiring"> Are you hiring?</a>
+                </Col>
+                <Col>
+                <img src={Image} className="info-image" fluid alt="Are you hiring?"/>
+                </Col>
+            </Row>
+            <h2 className="join">Join Thousands of companies hiring through the Ablestate Platform</h2>
             
-            <InfoColumn>
-              <TextWrapper>
-                <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headline}</Heading>
-                <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-                <Link to='/sign-up'>
-                  <Button big fontBig primary={primary}>
-                    {buttonLabel}
-                  </Button>
-                </Link>
-              </TextWrapper>
-            </InfoColumn>
+            <div  className="container search mt-4">
+            <Form >
+                <Form.Row className="row-items">
+                    <Col className="col-sm-6">
+                    <Form.Control placeholder="Job, Skill, Developer" />
+                    </Col>
+                    <Col className="col-sm-3">
+                    <Form.Control placeholder="Location" />
+                    </Col>
+                    <Col className="col-sm-3">
+                    <Button type="submit" className="btn btn-dark">Search Talent</Button>
+                    </Col>
+                </Form.Row>
+                </Form>
 
-            <InfoColumn>
-              <ImgWrapper start={start}>
-                <Img src={img} alt={alt} />
-              </ImgWrapper>
-            </InfoColumn>
+            </div>
 
-          </InfoRow>
+            <div className="container">
+                <h2 className="featured-devs-header">Featured Developers</h2>
+                <h3 className="featured-devs-intro">Source active engineers fit for your Team</h3>
+            </div>
+            
+
         </Container>
-      </InfoSec>
-    </>
-  );
+    );
 }
-
-export default InfoSection;
+export default Infosection;
