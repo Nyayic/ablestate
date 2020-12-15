@@ -1,8 +1,8 @@
-import React from 'react';
+import * as React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Image from '../../images/colleages.jpg';
+import colleages from '../../images/colleages.jpg';
 import Form from 'react-bootstrap/Form'
 import './InfoSection.css';
 import { Button } from 'react-bootstrap';
@@ -21,7 +21,7 @@ function Infosection(){
                 <a href="#signup" className="hiring"> Are you hiring?</a>
                 </Col>
                 <Col>
-                <img src={Image} className="info-image" fluid alt="Are you hiring?"/>
+                <img src={colleages} className="info-image" fluid alt="Are you hiring?"/>
                 </Col>
             </Row>
             <h2 className="join">Join Thousands of companies hiring through the Ablestate Platform</h2>
