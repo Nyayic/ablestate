@@ -1,8 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from 'react';
-import {Navbar, Nav, Button  } from 'react-bootstrap';
+import * as React from 'react';
+import { Navbar, Nav, Button } from 'react-bootstrap';
 import './Navbar.css';
-
 
 function BNavbar(){
     return(
