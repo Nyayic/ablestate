@@ -7,8 +7,9 @@ import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
 import Container from 'react-bootstrap/Container'
+import Button from 'react-bootstrap/Button'
 
-import './Navbar.css';
+import './Navbar.css'
 
 function BNavbar(){
     return(
@@ -17,6 +18,7 @@ function BNavbar(){
             <Navbar.Brand href="/">Ablestate</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
+
               <Nav className="mr-auto navItems">
                 <Nav.Link href="#about">About</Nav.Link>
                 <Nav.Link href="#developers">Developers</Nav.Link>
@@ -24,18 +26,19 @@ function BNavbar(){
                 <Nav.Link href="#premium">Premium</Nav.Link>
                 <Nav.Link href="#news">News</Nav.Link>
                 <Nav.Link href="#contact">Contact Us</Nav.Link>
-
               </Nav>
+
               <Nav>
                 <Nav.Link className="login" href="/login">Login</Nav.Link>
                 <Button eventKey={2} href="/signup" className="signup-btn">
                   <p>Get Started</p>
                 </Button>
               </Nav>
+
             </Navbar.Collapse>
-        </Containter>
+        </Container>
       </Navbar>
 
-    );
+    )
 }
-export default BNavbar;
+export default BNavbar
