@@ -20,7 +20,7 @@ function BNavbar(){
             <Navbar.Collapse id="responsive-navbar-nav">
 
               <Nav className="mr-auto navItems">
-                <Nav.Link href="#about">About</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
                 <Nav.Link href="#developers">Developers</Nav.Link>
                 <Nav.Link href="#employers">Employers</Nav.Link>
                 <Nav.Link href="#premium">Premium</Nav.Link>
