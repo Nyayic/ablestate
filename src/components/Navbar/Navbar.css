@@ -1,10 +1,10 @@
-.navItems{
+/* .navItems{
     /* margin-left: 200px;
     font-size: large; */
     /* position: absolute; */
-}
+/* } */
 
-.main-nav{
+.main-nav{ 
 /*  position: absolute;
     width: 1275px;
     height: 84px;
@@ -50,7 +50,7 @@
     color: #FFFFFF;
 } */
 
-.login{
+/* .login{ */
 /*     position: absolute;
     width: 55px;
     height: 26px;
@@ -64,4 +64,4 @@
     line-height: 26px;
 
 color: #FFFFFF; */
-}
+/* } */

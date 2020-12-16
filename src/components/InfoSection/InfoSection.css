@@ -1,9 +1,14 @@
+.intro-row{
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
 .header{
-    position: absolute;
     width: 494px;
     height: 237px;
-    left: 99px;
-    top: 264px;
+    /* left: 99px; */
+    padding-top: 150px;
 
     font-family: Roboto Slab;
     font-style: normal;
@@ -12,44 +17,50 @@
     line-height: 79px;
     color: #FFFFFF;
 
-}
-.content{
-    color: #FFFFFF;
-    position: absolute;
-    width: 343px;
-    height: 197px;
-    left: 111px;
-    top: 526px;
+    /* margin-left: 100px;    */
 
+
+}
+.info-content{
+    padding-top: 150px;
+    color: #FFFFFF;
     font-family: Raleway;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    line-height: 43px;
 }
+
 .hiring{
-    margin-top: 50px;
-    color: orange;
+    /* margin-left: 100px;    */
+    color:#E35F0D;
     font-size: 30px;
     text-decoration: none;
     font-weight: bold;
+    padding-top: 200px;
 }
 
 .info-image{
     margin-top: 100px;
-    height: 724px;
-    width: 822px;
-    left: 607px;
-    top: 164px;
-    border-radius: 0px;
+    height: 100%;
+    width: 100%;
+    /* left: 607px;
+    top: 164px; */
     
-    
-}
-.join{
+    /* responsive image */
+    @media 
+    (-webkit-min-device-pixel-ratio: 2), 
+    (min-resolution: 192dpi) { 
+        .info-image {
+        background-image: url(../../images/new-employee-removebg.png);
+        }
+    }
+} 
+.join-header{
     color: white;
-    text-align: center;
-    margin-top: 50px;
     font-size: 20px;
+    right: 100px;
+    padding-left: 400px;
+    padding-top: 100px;
 }
 .search{
     /* position: absolute; */
