@@ -88,12 +88,13 @@
     color: rgba(255, 255, 255, 0.8);
 }
 
-.card-body{
+.card-items{
     left: 0%;
     right: 0%;
     top: 0%;
     bottom: 0%;
     background: rgba(0, 0, 0, 0.25);
+    /* background: rgba(0, 0, 0, 0.25); */
 }
 
 .dev-image{
@@ -113,8 +114,65 @@
     border: 1px solid #E35F0D;
     box-sizing: border-box;
     border-radius: 4px;
-    padding: 10px;
-    margin-left: 90px;
+    /* padding: 10px; */
+    margin-bottom: 20px;
     color: #FFFFFF;
     border: 1px solid #E35F0D
+}
+
+.all-premium{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #FFFFFF;
+    height: 50px;
+    background: #E35F0D;
+    border-radius: 5px; 
+}
+
+.work-intro{
+    font-family: Roboto Slab;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.work-header{
+    font-family: Raleway;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.premium{
+    text-align: right;
+    padding-top: 50px;
+}
+
+.premium-club-header{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 43px;
+    text-align: right;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.premium-club-intro{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    text-align: right;
+
 }
