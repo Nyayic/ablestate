@@ -3,7 +3,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import colleages from '../../images/new-employee-removebg.png';
-import JobSearch from '../../images/job-search.jpg';
+import JobInterview from '../../images/job-interview-bg.png';
+import JobSearch from '../../images/job-search-bg.png';
 import DevImage from '../../images/woman-1.jpg';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button';
@@ -198,14 +199,52 @@ function Infosection() {
             {/* join premium club starts here */}
             <div className="container">
             <div className="row bg-light">
-                <div className="mt-4 premium">
+                <div className="col-md-12 mt-4 text-right premium">
                     <h2 className="premium-club-header">Join Our Premium Club</h2>
                     <h3 className="premium-club-intro">Spend less time screening</h3>
                 </div>
             </div>
+
+            <div className="row bg-light">
+                <div className="col-sm-6">
+                    <h2 className="premium-club-header2">Looking for <br/>the right job?</h2>
+                    <p className="premium-club-content">Negotiating the right terms of <br/>employment can be difficult, 
+                        let us <br/>save you the hassle of finding the <br/>right employer fit for your needs.
+                    <br/>
+                    </p>
+                    <a href="/signup" className="premium-club-link">Join the premium club now</a>
+                </div>
+                <div className="col-sm-6">
+                    <img src={JobSearch} alt="Are Looking for a job?" className="img-fluid"/>
+                </div>
+            </div>
+
+            <div className="row bg-light">
+                
+                <div className="col-sm-6">
+                    <img src={JobInterview} alt="Hire fully-screened developers" className="img-fluid"/>
+                </div>
+                <div className="col-sm-6">
+                    <h2 className="premium-club-header2">Hire fully-screened <br/>candidates.</h2>
+                    <p className="premium-club-content">Let us make a difference in your hiring by granting you access to our premium pool of talent making it more meaningful and personal.
+
+                    </p>
+                    <a href="/signup" className="premium-club-link">Learn more</a>
+                </div>
+            </div>
+
             </div>
             
             {/* join premium club ends here */}
+
+            {/* Partners section starts here */}
+            <div className="container bg-white">
+                <div className="row">
+                    <div className="col-lg-12">
+                        <h2 className="text-center dark mt-4">Trusted by startups and the world's largest companies</h2>
+                    </div>
+                </div>
+            </div>
 
             </div>
 

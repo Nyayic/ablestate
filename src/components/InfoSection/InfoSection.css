@@ -152,8 +152,9 @@
 }
 
 .premium{
-    text-align: right;
-    padding-top: 50px;
+    padding-top: 100px;
+    overflow: visible;
+    z-index: 2;
 }
 
 .premium-club-header{
@@ -161,9 +162,6 @@
     font-style: normal;
     font-weight: 500;
     font-size: 60px;
-    line-height: 43px;
-    text-align: right;
-
     color: rgba(0, 0, 0, 0.8);
 }
 
@@ -173,6 +171,36 @@
     font-weight: 500;
     font-size: 24px;
     color: #000000;
-    text-align: right;
 
+}
+.premium-club-content{
+    padding: 20px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    
+    color: rgba(0, 0, 0, 0.8);
+
+}
+.premium-club-header2{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+
+.premium-club-link{
+    color: #E35F0D;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 500;
+    padding: 20px;
+}
+.premium-club-link:hover{
+    color: #000000;
+    text-decoration: none;
 }
