@@ -6,15 +6,22 @@ import colleages from '../../images/new-employee-removebg.png';
 import JobInterview from '../../images/job-interview-bg.png';
 import JobSearch from '../../images/job-search-bg.png';
 import DevImage from '../../images/woman-1.jpg';
+import VisaLogo from '../../images/visa-logo.png';
+import SearsLogo from '../../images/sears-logo.png';
+import YamahaLogo from '../../images/yamaha-logo.png';
+import ReutersLogo from '../../images/reuters-logo.png';
+// import ToyotaLogo from '../../images/toyota-logo.png';
+import SonyLogo from '../../images/sony-logo.png';
+
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck'
-import './InfoSection.css';
+import './Homepage.css';
 
-function Infosection() {
+function Homepage() {
     return(
-        <Container fluid >
+        <Container fluid>
             <Row className="bg-dark intro-row">
                 <Col>
                     <h1 className="header">
@@ -36,6 +43,7 @@ function Infosection() {
                 </Col>
 
             </Row>
+            
             <div className="row bg-dark">
                 <div className="col-md-12 text-center">
                 <p className="join-header">
@@ -166,11 +174,13 @@ function Infosection() {
             </div>
 
             </div>
+
+            
             
             {/* How it works starts here */}
-            <div className="container">
-                <div className="row bg-light">
-                    <div className="col-md-12">
+            <div className="container-fluid bg-light">
+                <div className="row">
+                    <div className="col-md-12 bg-light">
                         <p className="work-intro text-center">How it works</p>
                         <h1 className="work-header text-center">Go beyond Traditional Hiring</h1>
                         <img src={JobSearch} className="job-search-img img-fluid" alt="How it works"/>
@@ -192,12 +202,17 @@ function Infosection() {
                     </div>
                 </div>
 
+
+                <div className="col-md-12 text-center">
+                    <a href="/developers" className="partner-link">HIRE NOW</a>
+                </div>
+
             </div>
 
             {/* How it works ends here */}
 
             {/* join premium club starts here */}
-            <div className="container">
+            <div className="container-fluid">
             <div className="row bg-light">
                 <div className="col-md-12 mt-4 text-right premium">
                     <h2 className="premium-club-header">Join Our Premium Club</h2>
@@ -238,10 +253,32 @@ function Infosection() {
             {/* join premium club ends here */}
 
             {/* Partners section starts here */}
-            <div className="container bg-white">
+            <div className="container-fluid bg-white">
                 <div className="row">
                     <div className="col-lg-12">
-                        <h2 className="text-center dark mt-4">Trusted by startups and the world's largest companies</h2>
+                        <h2 className="text-center partner-header mt-4">
+                            Trusted by <a href="/employers" className="partner-link">startups</a> and the world's 
+                            <a href="/employers" className="partner-link"> largest companies</a>
+                        </h2>
+                    
+                    </div>
+                    <div className="col-sm-4">
+                        <img src={VisaLogo} alt="Partner" className="partner-logos img-fluid"/>
+                    </div>
+                    <div className="col-sm-4">
+                        <img src={SearsLogo} alt="Partner" className="partner-logos img-fluid"/>
+                    </div>
+                    <div className="col-sm-4">
+                        <img src={SonyLogo} alt="Partner" className="partner-logos img-fluid"/>
+                    </div>
+                    <div className="col-sm-4">
+                        <img src={ReutersLogo} alt="Partner" className="partner-logos img-fluid"/>
+                    </div>
+                    <div className="col-sm-4">
+                        <img src={YamahaLogo} alt="Partner" className="partner-logos img-fluid"/>
+                    </div>
+                    <div className="col-sm-4">
+                        <img src={VisaLogo} alt="Partner" className="partner-logos img-fluid"/>
                     </div>
                 </div>
             </div>
@@ -253,4 +290,4 @@ function Infosection() {
         </Container>
     );
 }
-export default Infosection;
+export default Homepage;

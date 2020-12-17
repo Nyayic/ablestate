@@ -1,11 +1,13 @@
 import BNavbar from './components/Navbar/Navbar'
-import InfoSection from './components/InfoSection/InfoSection'
+import Homepage from './components/Homepage/Homepage';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
     <>
       <BNavbar/>
-      <InfoSection/>
+      <Homepage/>
+      <Footer/>
     </>
   )
 }

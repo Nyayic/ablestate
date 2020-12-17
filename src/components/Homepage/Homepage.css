@@ -202,5 +202,35 @@
 }
 .premium-club-link:hover{
     color: #000000;
+    font-weight: bold;
     text-decoration: none;
+}
+
+/* Styling for partner section */
+.partner-header{
+    font-family: Roboto Slab;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0em;
+    padding: 50px;
+
+}
+.partner-link{
+    color: #E35F0D;
+    text-decoration: none;
+}
+
+.partner-link:hover{
+    text-decoration: none;
+    color: #E35F0D;
+    font-weight: bold;
+}
+
+.partner-logos{
+    height: 80px;
+    width: 200px;
+    padding: 20px;
+    position: relative;
 }
