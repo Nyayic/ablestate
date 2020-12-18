@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import colleages from '../../images/new-employee-removebg.png';
 import JobInterview from '../../images/job-interview-bg.png';
 import JobSearch from '../../images/job-search-bg.png';
+import Screening from '../../images/screening.jpg';
 import DevImage from '../../images/woman-1.jpg';
 import VisaLogo from '../../images/visa-logo.png';
 import SearsLogo from '../../images/sears-logo.png';
@@ -180,32 +181,40 @@ function Homepage() {
             {/* How it works starts here */}
             <div className="container-fluid bg-light">
                 <div className="row">
-                    <div className="col-md-12 bg-light">
-                        <p className="work-intro text-center">How it works</p>
-                        <h1 className="work-header text-center">Go beyond Traditional Hiring</h1>
-                        <img src={JobSearch} className="job-search-img img-fluid" alt="How it works"/>
+                    <div className="container mt-4 mb-4">
+                        <div className="row">
+                            <div className="col-md-12 bg-light">
+                            <p className="work-intro text-center">How it works</p>
+                            <h1 className="work-header text-center">Go beyond Traditional Hiring</h1>
+                            <img src={JobSearch} className="job-search-img img-fluid" alt="How it works"/>
+                        </div>
                     </div>
-                </div>
                 
-                <div className="row bg-light">
-                    <div class="col-sm-4 text-center">
-                        <h3><b>Browse</b></h3>
-                        <p>Discover your next hire from our<br/> pool of assertive technical <br/>candidates who are <br/>ready to work.</p>
+                    <div className="row bg-light">
+                        <div class="col-sm-4 text-center">
+                            <h3><b>Browse</b></h3>
+                            <p>Discover your next hire from our<br/> pool of assertive technical <br/>candidates who are <br/>ready to work.</p>
+                        </div>
+
+                        <div class="col-sm-4 text-center">
+                            <h3><b>Assess</b></h3>
+                            <p>Evaluate candidates <br/>and determine whether <br/>they  have values <br/>similar to your team.</p>
+                        </div>
+
+                        <div class="col-sm-4 text-center">
+                            <h3><b>Hire</b></h3>
+                            <p>Seamlessly connect with <br/> your  candidate of choice<br/> and hire right away.<br/>No third party required</p>
+                        </div>
                     </div>
-                    <div class="col-sm-4 text-center">
-                        <h3><b>Assess</b></h3>
-                        <p>Evaluate candidates <br/>and determine whether <br/>they  have values <br/>similar to your team.</p>
-                    </div>
-                    <div class="col-sm-4 text-center">
-                        <h3><b>Hire</b></h3>
-                        <p>Seamlessly connect with <br/> your  candidate of choice<br/> and hire right away.<br/>No third party required</p>
-                    </div>
-                </div>
 
 
-                <div className="col-md-12 text-center">
-                    <a href="/developers" className="partner-link">HIRE NOW</a>
+                    <div className="col-md-12 text-center">
+                        <a href="/developers" className="partner-link">HIRE NOW</a>
+                    </div>
+
                 </div>
+            </div>
+                
 
             </div>
 
@@ -214,74 +223,169 @@ function Homepage() {
             {/* join premium club starts here */}
             <div className="container-fluid">
             <div className="row bg-light">
-                <div className="col-md-12 mt-4 text-right premium">
-                    <h2 className="premium-club-header">Join Our Premium Club</h2>
-                    <h3 className="premium-club-intro">Spend less time screening</h3>
+                <div className="container mt-4 mb-4">
+                    <div className="row">
+                        <div className="col-md-12 mt-4 text-right premium">
+                        <h2 className="premium-club-header">Join Our Premium Club</h2>
+                        <h3 className="premium-club-intro">Spend less time screening</h3>
+                    </div>
                 </div>
+
+                <div className="row bg-light">
+                    <div className="col-sm-6">
+                        <h2 className="premium-club-header2">Looking for <br/>the right job?</h2>
+                        <p className="premium-club-content">Negotiating the right terms of <br/>employment can be difficult, 
+                            let us <br/>save you the hassle of finding the <br/>right employer fit for your needs.
+                        <br/>
+                        </p>
+                        <a href="/signup" className="premium-club-link">Join the premium club now</a>
+                    </div>
+                    <div className="col-sm-6">
+                        <img src={JobSearch} alt="Are Looking for a job?" className="img-fluid"/>
+                    </div>
+                </div>
+
+                <div className="row bg-light">
+                    
+                    <div className="col-sm-6">
+                        <img src={JobInterview} alt="Hire fully-screened developers" className="img-fluid"/>
+                    </div>
+                    <div className="col-sm-6">
+                        <h2 className="premium-club-header2">Hire fully-screened <br/>candidates.</h2>
+                        <p className="premium-club-content">Let us make a difference in your hiring by granting you access to our premium pool of talent making it more meaningful and personal.
+
+                        </p>
+                        <a href="/signup" className="premium-club-link">Learn more</a>
+                    </div>
+                </div>
+
             </div>
 
-            <div className="row bg-light">
-                <div className="col-sm-6">
-                    <h2 className="premium-club-header2">Looking for <br/>the right job?</h2>
-                    <p className="premium-club-content">Negotiating the right terms of <br/>employment can be difficult, 
-                        let us <br/>save you the hassle of finding the <br/>right employer fit for your needs.
-                    <br/>
-                    </p>
-                    <a href="/signup" className="premium-club-link">Join the premium club now</a>
-                </div>
-                <div className="col-sm-6">
-                    <img src={JobSearch} alt="Are Looking for a job?" className="img-fluid"/>
-                </div>
             </div>
-
-            <div className="row bg-light">
+            </div>
                 
-                <div className="col-sm-6">
-                    <img src={JobInterview} alt="Hire fully-screened developers" className="img-fluid"/>
-                </div>
-                <div className="col-sm-6">
-                    <h2 className="premium-club-header2">Hire fully-screened <br/>candidates.</h2>
-                    <p className="premium-club-content">Let us make a difference in your hiring by granting you access to our premium pool of talent making it more meaningful and personal.
-
-                    </p>
-                    <a href="/signup" className="premium-club-link">Learn more</a>
-                </div>
-            </div>
-
-            </div>
             
             {/* join premium club ends here */}
 
             {/* Partners section starts here */}
             <div className="container-fluid bg-white">
-                <div className="row">
-                    <div className="col-lg-12">
-                        <h2 className="text-center partner-header mt-4">
-                            Trusted by <a href="/employers" className="partner-link">startups</a> and the world's 
-                            <a href="/employers" className="partner-link"> largest companies</a>
-                        </h2>
+                <div className="row mt-4 mb-4">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-lg-12">
+                                <h2 className="text-center partner-header mt-4">
+                                    Trusted by <a href="/employers" className="partner-link">startups</a> and the world's 
+                                    <a href="/employers" className="partner-link"> largest companies</a>
+                                </h2>
                     
+                            </div>
+                            <div className="col-sm-4">
+                                <img src={VisaLogo} alt="Partner" className="partner-logos img-fluid"/>
+                            </div>
+                            <div className="col-sm-4">
+                                <img src={SearsLogo} alt="Partner" className="partner-logos img-fluid"/>
+                            </div>
+                            <div className="col-sm-4">
+                                <img src={SonyLogo} alt="Partner" className="partner-logos img-fluid"/>
+                            </div>
+                            <div className="col-sm-4">
+                                <img src={ReutersLogo} alt="Partner" className="partner-logos img-fluid"/>
+                            </div>
+                            <div className="col-sm-4">
+                                <img src={YamahaLogo} alt="Partner" className="partner-logos img-fluid"/>
+                            </div>
+                            <div className="col-sm-4">
+                                <img src={VisaLogo} alt="Partner" className="partner-logos img-fluid"/>
+                            </div>
+
+                        </div>
+
                     </div>
-                    <div className="col-sm-4">
-                        <img src={VisaLogo} alt="Partner" className="partner-logos img-fluid"/>
-                    </div>
-                    <div className="col-sm-4">
-                        <img src={SearsLogo} alt="Partner" className="partner-logos img-fluid"/>
-                    </div>
-                    <div className="col-sm-4">
-                        <img src={SonyLogo} alt="Partner" className="partner-logos img-fluid"/>
-                    </div>
-                    <div className="col-sm-4">
-                        <img src={ReutersLogo} alt="Partner" className="partner-logos img-fluid"/>
-                    </div>
-                    <div className="col-sm-4">
-                        <img src={YamahaLogo} alt="Partner" className="partner-logos img-fluid"/>
-                    </div>
-                    <div className="col-sm-4">
-                        <img src={VisaLogo} alt="Partner" className="partner-logos img-fluid"/>
-                    </div>
+                    
                 </div>
+                 {/* partners end here */}
+
+                <hr className="hr-line"></hr>
+
+                {/* Blog section starts */}
+                <div className="row mt-4 mb-4">
+                    <div className="container">
+                        <h1 className="blog-header">WHAT'S NEW IN TECH</h1>
+                        <CardDeck className="col-md-12">
+                        <Card className="col-sm-4">
+                            <img variant="top" src={DevImage} alt="Developer" className="img-fluid" />
+                            <Card.Body>
+                                <Card.Title className="text-dark">
+                                    <b>The guide to making it in tech</b>
+                                </Card.Title>
+                                <Card.Text className="text-dark">Posted by David Wampamba<br/><br/>
+                                <button className="view-profile-btn">Read more</button> 
+
+                                </Card.Text>
+                            </Card.Body>
+                            
+                        </Card>
+                        <Card className="col-sm-4">
+                            <img variant="top" src={DevImage} alt="Developer" className="img-fluid" />                            
+                            <Card.Body>
+                                <Card.Title className="text-dark">
+                                    <b>The guide to making it in tech</b>
+                                </Card.Title>
+                                <Card.Text className="text-dark"> Posted by Admin<br/><br/>
+                                    <button className="view-profile-btn">Read more</button> 
+
+                                </Card.Text>
+                                
+                            </Card.Body>
+                        </Card>
+
+                        <Card className="col-sm-4">
+                            <img variant="top" src={DevImage} alt="Developer" className="img-fluid" />                            <Card.Body>
+                            <Card.Title className="text-dark">
+                                <b>The guide to making it in tech</b>
+                                </Card.Title>
+                            <Card.Text className="text-dark">Posted By David<br/><br/>
+                                <button className="view-profile-btn">Read more</button> 
+
+                            </Card.Text>
+                            </Card.Body> 
+                        </Card>
+                    </CardDeck>
+                    </div>
+                    
+                </div>
+                {/* Blog section ends */}
+
+                {/* Get hired fast section starts here */}
+
+                <div className="row mt-4 mb-4">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-sm-6">
+                                <h2 className="get-hired-header">Get Hired Fast</h2>
+                                <p className="get-hired-content">With thousands of employers hiring from our platform, 
+                                your ablestate profile is the assured way to set your  tech career in motion. 
+                                </p>
+                                <button href="/signup" className="get-hired-btn">SIGN UP FOR FREE</button>
+                            </div>
+                            <div className="col-sm-6 mt-4 mb-4">
+                                <img src={Screening} alt="Get hired fast" className="img-fluid"/>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                
+                </div>
+
+
+                {/* Get hired fast ends here */}
+
+
             </div>
+           
+
+           
 
             </div>
 

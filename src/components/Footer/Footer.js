@@ -1,8 +1,6 @@
 import * as React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Logo from '../../images/logo.png'
-
+import Logo from '../../images/logo.png';
 import './Footer.css';
 
 function Footer(){
@@ -15,10 +13,10 @@ function Footer(){
                 <div className="col-sm-9 pull-right">
                    <div className="row text-light">
                        <div className="col-sm-3 top-footer-section">
-                           <p>info@ablestate.com</p>
+                           <p className="footer-contact">info@ablestate.com</p>
                        </div>
                        <div className="col-sm-3 top-footer-section">
-                           <p>+256 704 255401</p>
+                           <p className="footer-contact">+256 704 255401</p>
                        </div>
                        <div className="col-sm-3 top-footer-section">
                             <i class="fab fa-facebook footer-icons"></i>
@@ -36,10 +34,10 @@ function Footer(){
             <hr className="hr-line"></hr>
 
             <div className="row text-light">
-                <div className="col-sm-4 mt-4">
+                <div className="col-sm-3 mt-4">
                     <p className="copyright-text">2020 © Ablestate</p>
                 </div>
-                <div className="col-sm-8 pull-right">
+                <div className="col-sm-9 pull-right">
                    <div className="row text-light">
                        <ul>
                            <li>

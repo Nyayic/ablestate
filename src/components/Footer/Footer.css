@@ -17,9 +17,23 @@
     font-weight: bold;
 
 }
+
+.footer-contact{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+
+
 .footer-icons{
     padding-left: 20px;
     size: 60px;
+    top: 139px;
+
 }
 
 .hr-line{

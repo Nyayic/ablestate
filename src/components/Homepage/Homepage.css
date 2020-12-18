@@ -66,6 +66,8 @@
 .row-items{
     padding: 40px;
 }
+
+/* featured devs section  */
 .featured-devs-header{
     font-family: Roboto Slab;
     font-style: normal;
@@ -151,6 +153,8 @@
     
 }
 
+/* premium dev section */
+
 .premium{
     padding-top: 100px;
     overflow: visible;
@@ -234,3 +238,49 @@
     padding: 20px;
     position: relative;
 }
+
+.hr-line{
+    background: #C4C4C4;
+}
+
+/* Whats new in tech starts here*/
+.blog-header{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    padding: 60px;
+    color: rgba(60, 60, 60, 0.8);
+}
+/* whats new in tech ends here */
+
+/* get hired first section starts hre */
+.get-hired-header{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    padding: 40px;
+
+    color: rgba(0, 0, 0, 0.8);
+
+}
+.get-hired-content{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 43px;
+    padding: 40px;
+
+}
+.get-hired-btn{
+    padding: 20px;
+    margin-left: 40px;
+    background: #ffffff;
+    border: 2px solid #E35F0D;
+    color: #E35F0D;
+    border-radius: 1px;
+    
+}
+/* get hired first section ends here */
