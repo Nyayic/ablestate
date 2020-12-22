@@ -1,11 +1,11 @@
-import * as React from 'react'
-import Navbar from '../../components/Navbar/Navbar';
+import React from 'react';
 
-const About = () => {
+function About() {
     return (
         <div>
-            <Navbar/>
-            Other text
+            <h1>Welcome to Ablesate custom pool</h1>
+            <h1>Welcome to Ablesate custom pool</h1>
+            <h1>Welcome to Ablesate custom pool</h1>
         </div>
     );
 }
