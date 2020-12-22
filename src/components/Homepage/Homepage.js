@@ -2,7 +2,8 @@ import * as React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import colleages from '../../images/new-employee-removebg.png';
+// images
+import Recruit from '../../images/recruit-bg.png';
 import JobInterview from '../../images/job-interview-bg.png';
 import JobSearch from '../../images/job-search-bg.png';
 import Screening from '../../images/screening.jpg';
@@ -11,13 +12,14 @@ import VisaLogo from '../../images/visa-logo.png';
 import SearsLogo from '../../images/sears-logo.png';
 import YamahaLogo from '../../images/yamaha-logo.png';
 import ReutersLogo from '../../images/reuters-logo.png';
-// import ToyotaLogo from '../../images/toyota-logo.png';
+import BusinessPartner from '../../images/business-partner-bg.png';
 import SonyLogo from '../../images/sony-logo.png';
 
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import CardDeck from 'react-bootstrap/CardDeck'
+import CardDeck from 'react-bootstrap/CardDeck';
+import Badge from 'react-bootstrap/Badge';
 import './Homepage.css';
 
 function Homepage() {
@@ -40,7 +42,7 @@ function Homepage() {
                 </Col>
 
                 <Col>
-                    <img src={colleages} className="info-image img-fluid"  alt="Are you hiring?"/>
+                    <img src={Recruit} className="info-image img-fluid"  alt="Are you hiring?"/>
                 </Col>
 
             </Row>
@@ -70,17 +72,20 @@ function Homepage() {
 
             </div>
             
-            <div className="row bg-dark">
+            <div className="row bg-dark mb-4">
                 <div className="container">
                     <h2 className="featured-devs-header">Featured Developers</h2>
                     <h3 className="featured-devs-intro">Source active engineers fit for your Team</h3>
                 </div>
                 {/* Featured developers start here */}
-                <div className="container">
+                <div className="container mt-4 mb-4">
                     <div className="row mt-4">
                     <CardDeck className="col-md-12">
-                        <Card className="col-sm-4 card-items">
+                        <Card className="col-sm-4 bg-dark card-items">
                             <img variant="top" src={DevImage} alt="Developer" className="dev-image" />
+                            <Badge className="fa fa-star featured-dev-icon">featured</Badge>
+                            
+
                             <Card.Body>
                                 <Card.Title className="text-center text-light">
                                     <b>Nyayic Fanny</b>
@@ -92,7 +97,7 @@ function Homepage() {
                             </Card.Body>
                             
                         </Card>
-                        <Card className="col-sm-4 card-items">
+                        <Card className="col-sm-4 bg-dark card-items">
                             <img variant="top" src={DevImage} alt="Developer" className="dev-image" />                            
                             <Card.Body>
                                 <Card.Title className="text-center text-light">
@@ -106,7 +111,7 @@ function Homepage() {
                             </Card.Body>
                         </Card>
 
-                        <Card className="col-sm-4 card-items">
+                        <Card className="col-sm-4 bg-dark card-items">
                             <img variant="top" src={DevImage} alt="Developer" className="dev-image" />                            <Card.Body>
                             <Card.Title className="text-center text-light"><b>David Wampamba</b></Card.Title>
                             <Card.Text className="text-center text-light">Fullstack Developer <br/><br/>
@@ -117,18 +122,24 @@ function Homepage() {
                         </Card>
                     </CardDeck>
                 </div>
+                
 
                 {/* Featured developers end here */}
-
-                <div className="col-md-12 text-center">
-                    <button className="all-premium">SEE ALL PREMIUM</button>
+          
+                
                 </div>
 
                 {/* All developers start here */}
-                <div className="container">
+                <div className="container-fluid bg-light">
                     <div className="row mt-4">
-                    <CardDeck className="col-md-12">
-                        <Card className="col-sm-4 card-items">
+                        <div className="container mt-4 mb-4">
+                            <div className="row">
+                            <div className="col-md-12 text-center">
+                                <button className="all-premium">SEE ALL PREMIUM</button>
+                            </div>
+
+                            <CardDeck className="col-md-12 mt-4">
+                            <Card className="col-sm-4 bg-dark card-items">
                             <img variant="top" src={DevImage} alt="Developer" className="dev-image" />
                             <Card.Body>
                                 <Card.Title className="text-center text-light">
@@ -141,7 +152,7 @@ function Homepage() {
                             </Card.Body>
                             
                         </Card>
-                        <Card className="col-sm-4 card-items">
+                        <Card className="col-sm-4 bg-dark card-items">
                             <img variant="top" src={DevImage} alt="Developer" className="dev-image" />                            
                             <Card.Body>
                                 <Card.Title className="text-center text-light">
@@ -155,7 +166,7 @@ function Homepage() {
                             </Card.Body>
                         </Card>
 
-                        <Card className="col-sm-4 card-items">
+                        <Card className="col-sm-4 bg-dark card-items">
                             <img variant="top" src={DevImage} alt="Developer" className="dev-image" />                            <Card.Body>
                             <Card.Title className="text-center text-light"><b>David Wampamba</b></Card.Title>
                             <Card.Text className="text-center text-light">Fullstack Developer <br/><br/>
@@ -165,6 +176,10 @@ function Homepage() {
                             </Card.Body> 
                         </Card>
                     </CardDeck>
+                                
+                            </div>
+                        </div>
+                    
                 </div>
                 {/* All developers end here */}
 
@@ -174,7 +189,7 @@ function Homepage() {
 
             </div>
 
-            </div>
+            {/* </div> */}
 
             
             
@@ -186,7 +201,7 @@ function Homepage() {
                             <div className="col-md-12 bg-light">
                             <p className="work-intro text-center">How it works</p>
                             <h1 className="work-header text-center">Go beyond Traditional Hiring</h1>
-                            <img src={JobSearch} className="job-search-img img-fluid" alt="How it works"/>
+                            <img src={BusinessPartner} className="how-it-works-img img-fluid" alt="How it works"/>
                         </div>
                     </div>
                 

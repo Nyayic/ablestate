@@ -1,67 +1,69 @@
-/* .navItems{
-    /* margin-left: 200px;
-    font-size: large; */
-    /* position: absolute; */
-/* } */
+.navItems{
+    margin-left: 150px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+
+    color: #FFFFFF;
+
+}
+.navItems.link:hover{
+    color: #E35F0D;
+    font-weight: bold;
+}
 
 .main-nav{ 
-/*  position: absolute;
-    width: 1275px;
-    height: 84px;
-    left: 99px;
-    top: 0px; 
-*/
-
     background: #1C2327;
     border: 1px solid #000000;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 
-.right-nav{
+/* .right-nav{
     margin-left: 50px; 
     font-size: 20px;
-}
+} */
 .signup-btn.btn-primary{
-    /* 
-    position: absolute;
-    width: 120px;
-    height: 84px;
-    left: 1154px;
-    top: 0px;
-    */
-
     background-color: #E35F0D;
     border-radius: 5px;
     border: none;
+    padding: 15px;
+    margin: 0px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 58px;
 }
 
 /* 
-.signup-btn.p{
-    position: absolute;
-    width: 125px;
-    height: 26px;
-    left: 1219px;
-    top: 30px; 
+.signup-btn{
+    width: 130px;
+    height: 60px;
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 26px;
     color: #FFFFFF;
 } */
+.signup-btn.btn-primary:hover{
+    color: #E35F0D;
+    font-weight: bold;
+    background: #000000;
+    
 
-/* .login{ */
-/*     position: absolute;
-    width: 55px;
-    height: 26px;
-    left: 1031px;
-    top: 37px;
+}
 
+.login{ 
     font-family: Roboto Slab;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-    line-height: 26px;
+    margin-right: 30px;
+    margin-top: 5px;
 
-color: #FFFFFF; */
-/* } */
+    color: #FFFFFF; 
+} 
