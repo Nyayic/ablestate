@@ -7,7 +7,11 @@ import Recruit from '../../images/recruit-bg.png';
 import JobInterview from '../../images/job-interview-bg.png';
 import JobSearch from '../../images/job-search-bg.png';
 import Screening from '../../images/screening.jpg';
+import BlogImage1 from '../../images/blog-img1.jpg';
+import BlogImage2 from '../../images/blog-img2.jpg';
 import DevImage from '../../images/woman-1.jpg';
+
+
 import VisaLogo from '../../images/visa-logo.png';
 import SearsLogo from '../../images/sears-logo.png';
 import YamahaLogo from '../../images/yamaha-logo.png';
@@ -328,7 +332,7 @@ function Homepage() {
                         <h1 className="blog-header">WHAT'S NEW IN TECH</h1>
                         <CardDeck className="col-md-12">
                         <Card className="col-sm-4">
-                            <img variant="top" src={DevImage} alt="Developer" className="img-fluid" />
+                            <img variant="top" src={BlogImage1} alt="Developer" className="img-fluid" />
                             <Card.Body>
                                 <Card.Title className="text-dark">
                                     <b>The guide to making it in tech</b>
@@ -341,7 +345,7 @@ function Homepage() {
                             
                         </Card>
                         <Card className="col-sm-4">
-                            <img variant="top" src={DevImage} alt="Developer" className="img-fluid" />                            
+                            <img variant="top" src={BlogImage2} alt="Developer" className="img-fluid" />                            
                             <Card.Body>
                                 <Card.Title className="text-dark">
                                     <b>The guide to making it in tech</b>
@@ -355,7 +359,7 @@ function Homepage() {
                         </Card>
 
                         <Card className="col-sm-4">
-                            <img variant="top" src={DevImage} alt="Developer" className="img-fluid" />                            <Card.Body>
+                            <img variant="top" src={BlogImage1} alt="Developer" className="img-fluid" />                            <Card.Body>
                             <Card.Title className="text-dark">
                                 <b>The guide to making it in tech</b>
                                 </Card.Title>

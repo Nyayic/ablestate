@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Routes from '../../routes/Routes';
+// import Routes from '../../routes/Routes';
 // pages 
 // import About from '../../pages/About/About';
 // import Employers from '../../pages/Employers/Employers';
@@ -29,7 +29,7 @@ function BNavbar(){
 
               
 
-                <Nav.Link to="/about">About</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
 
                 <Nav.Link href="/developers">Developers</Nav.Link>
                 <Nav.Link href="/employers">Employers</Nav.Link>
@@ -49,4 +49,4 @@ function BNavbar(){
 
     )
 }
-export default BNavbar
+export default BNavbar;
