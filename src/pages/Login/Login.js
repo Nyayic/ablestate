@@ -37,8 +37,8 @@ import './Login.css';
                                 <a href="/sign-up"> Join Now!</a>
                             </h3>
                             <hr/>
-                                <div className="consent">
-                                    <p>
+                                <div>
+                                    <p className="consent">
                                     By signing in to your account, you agree to Ablestate’s Terms of Service and consent to our 
                                     <a href="/cookies-policy"> Cookie Policy</a> and <a href="/privacy-policy">Privacy Policy</a>.
                                     </p>
