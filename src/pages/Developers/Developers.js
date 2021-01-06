@@ -17,11 +17,11 @@ function Developers(){
                     </div>
 
                 </div>
-                <div className="container mt-4 mb-4  bg-white">
+                <div className="container mt-4 mb-4 bg-white">
                     <div className="row">
                         <div className="col-md-12">
                             <h1>Please complete your profile</h1>
-                            <div className="form col">
+                            <div className="form">
                                 <label for="name">Your Name</label>
                                 <input type="text" className="form-control"/>
                                 <label for="role">Prefered Role</label>

@@ -32,18 +32,32 @@ function Employers(){
                             <h1>Please complete this short form</h1>
                             <div className="form col">
                                 <label for="name">Your company Name</label>
-                                <input type="text" className="form-control"/>
-                                <label for="role">choose your next hire(s)</label>
-                                <input type="text" className="form-control"/>
+                                <input type="text" className="form-control"/><br/>
+                                <label for="role">Choose your next Hire(s)</label>
+                                <div className="row">
+                                    <div className="col-sm-4">
+                                        <label for>Number of developers</label>
+                                        <input type="text" className="form-control"/>
+                                    </div>
+                                    <div className="col-sm-4">
+                                        <label for>Job Type(s)</label>
+                                        <input type="text" className="form-control"/>
+                                    </div>
+                                    <div className="col-sm-4">
+                                        <label for>Required Skill(s)</label>
+                                        <input type="text" className="form-control"/><br/>
+                                        <input type="button" value="Add" className="btn btn-primary mr-4"/>
+                                    </div>
+                                </div>
                                 <label for="name">Your Name</label>
                                 <input type="text" className="form-control"/>
                                 <label for="phone">Phone Number</label>
                                 <input type="text" className="form-control"/>
                                 <label for="location">Location</label>
                                 <input type="text" className="form-control"/>
-                                <label for="name">email address</label>
+                                <label for="name">Email address</label>
                                 <input type="text" className="form-control"/>
-                                <label for="name">description</label>
+                                <label for="name">Description</label>
                                 <input type="textarea" className="form-control"/>
                                 <input type="button" className="btn btn-primary mt-4 form-control" value="submit"/>
                             </div>
