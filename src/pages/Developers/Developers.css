@@ -1,0 +1,51 @@
+.top-header{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    color: #000000;
+    padding: 30px;
+}
+.top-text{
+    padding: 30px;
+    position: absolute;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.header-text{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.form{
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 20px; 
+    background: #FFFFFF;
+}
+.form label{
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.76);
+}
+
+.form input{
+    border-radius: 10px;
+}
+
+.create-profile-btn{
+    background: #E35F0D;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
