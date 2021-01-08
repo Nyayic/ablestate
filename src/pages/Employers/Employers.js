@@ -8,8 +8,8 @@ function Employers(){
                 <div className="container mt-4 mb-4 jumbotron bg-white">
                     <div className="row">
                         <div className="col-md-4">
-                            <h1>WELCOME ABLESTATE'S CUSTOM POOL</h1>
-                            <p>VOur talent advisors will
+                            <h1 className="top-header">WELCOME ABLESTATE'S CUSTOM POOL</h1>
+                            <p className="top-text">Our talent advisors will
                             be in touch to discuss
                             your tech recruiting
                             needs.Our talent advisors will
@@ -29,7 +29,7 @@ function Employers(){
                 <div className="container mt-4 mb-4  bg-white">
                     <div className="row">
                         <div className="col-md-12">
-                            <h1>Please complete this short form</h1>
+                            <h1 className="header-text">Please complete this short form</h1>
                             <div className="form col">
                                 <label for="name">Your company Name</label>
                                 <input type="text" className="form-control"/><br/>
@@ -46,7 +46,7 @@ function Employers(){
                                     <div className="col-sm-4">
                                         <label for>Required Skill(s)</label>
                                         <input type="text" className="form-control"/><br/>
-                                        <input type="button" value="Add" className="btn btn-primary mr-4"/>
+                                        <input type="button" value="Add" className="create-profile-btn  btn mr-4"/>
                                     </div>
                                 </div>
                                 <label for="name">Your Name</label>
@@ -59,7 +59,7 @@ function Employers(){
                                 <input type="text" className="form-control"/>
                                 <label for="name">Description</label>
                                 <input type="textarea" className="form-control"/>
-                                <input type="button" className="btn btn-primary mt-4 form-control" value="submit"/>
+                                <input type="button" className="create-profile-btn mt-4 form-control" value="submit"/>
                             </div>
                         </div>
                         
