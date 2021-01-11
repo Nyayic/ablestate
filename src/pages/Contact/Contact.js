@@ -1,4 +1,5 @@
 import React from 'react';
+import './Contact.css';
 
  function Contact (){
      return(
@@ -8,16 +9,17 @@ import React from 'react';
                     <div className="row">
                         <div className="col-md-12">
                             <h1 className="top-header"> CONTACT FORM</h1>
-                            <p className="top-text">Our talent advisors will
-                            be in touch to discuss
-                            your tech recruiting
-                            needs.Our talent advisors will
-                            be in touch to discuss
-                            your tech recruiting
-                            needs.Our talent advisors will
-                            be in touch to discuss
-                            your tech recruiting
-                            needs.</p>
+                            <p>Our talent advisors will
+                            be in touch to discuss your tech recruiting needs.</p>
+                        </div>
+                        <div className="col-md-12 contact-form">
+                            <div className="row">
+                                <input type="email" placeholder="Enter your email" className="form-control"/><br/><br/><br/>
+                                <input type="text" placeholder="Subject" className="form-control"/><br/><br/><br/>
+                                <input type="textarea" placeholder="Type your message" className="form-control textarea"/>
+                                <input type="button" value="Send" className="btn btn-primary form-control"/><br/><br/><br/>
+                                
+                            </div>
                         </div>
                        
                     </div>
