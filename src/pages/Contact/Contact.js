@@ -14,10 +14,10 @@ import './Contact.css';
                         </div>
                         <div className="col-md-12 contact-form">
                             <div className="row">
-                                <input type="email" placeholder="Enter your email" className="form-control"/><br/><br/><br/>
-                                <input type="text" placeholder="Subject" className="form-control"/><br/><br/><br/>
-                                <input type="textarea" placeholder="Type your message" className="form-control textarea"/>
-                                <input type="button" value="Send" className="btn btn-primary form-control"/><br/><br/><br/>
+                                <input type="email" placeholder="Enter your email" required className="form-control"/><br/><br/><br/>
+                                <input type="text" placeholder="Subject" required className="form-control"/><br/><br/><br/>
+                                <input type="textarea" placeholder="Type your message" required className="form-control textarea"/>
+                                <input type="button" value="Send" className="send-btn form-control"/><br/><br/><br/>
                                 
                             </div>
                         </div>

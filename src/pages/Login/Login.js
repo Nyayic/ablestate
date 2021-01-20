@@ -8,7 +8,7 @@ import './Login.css';
             <div className="row bg-light">
                 <div className="container mt-4 mb-4 jumbotron bg-white">
                     <div className="row login-row">
-                        <div className="col-md-12 form">
+                        <div className="col-md-12">
                             <img src={Logo} alt="Logo" className="logo"/>
                             <h1 className="header-text">Welcome Back</h1>
                             <input type="button" className="form-control fa fa-google" value="Sign in with google"/> <br/>
@@ -25,7 +25,7 @@ import './Login.css';
                                 <hr/>
                             </div>
 
-                        <div className="col-md-12 form">
+                        <div className="col-md-12 ">
                             <input type="text" className="form-control" placeholder="Enter your email address"/> <br/>
                             <input type="password" className="form-control" placeholder="Enter your password"/> <br/>
                             <input type="button" className="form-control sign-in-btn" value="Sign In"/>

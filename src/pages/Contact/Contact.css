@@ -6,3 +6,8 @@ padding: 30px;
     height: 150px;
     margin-bottom: 20px;
   }
+
+.send-btn{
+  color: #ffffff;
+  background:  #E35F0D;
+}
