@@ -22,13 +22,18 @@ import SonyLogo from '../../images/sony-logo.png';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import BNavbar from '../Navbar/Navbar';
+
 import CardDeck from 'react-bootstrap/CardDeck';
 import Badge from 'react-bootstrap/Badge';
 import './Homepage.css';
 
 function Homepage() {
     return(
+
         <Container fluid>
+
+            <BNavbar />
             <Row className="bg-dark intro-row">
                 <Col>
                     <h1 className="header">
@@ -95,7 +100,7 @@ function Homepage() {
                                     <b>Nyayic Fanny</b>
                                 </Card.Title>
                                 <Card.Text className="text-center text-light">Frontend Developer <br/><br/>
-                                <button className="view-profile-btn">VIEW PROFILE</button> 
+                                <a className="view-profile-btn" href="/my-profile">VIEW PROFILE</a> 
 
                                 </Card.Text>
                             </Card.Body>

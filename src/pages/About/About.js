@@ -1,4 +1,6 @@
 import React from 'react';
+import BNavbar from '../../components/Navbar/Navbar';
+
 import BusinessPartner from '../../images/business-partner-bg.png';
 
 
@@ -7,6 +9,7 @@ function About() {
         <div>
             {/* How it works starts here */}
             <div className="container-fluid bg-light">
+                <BNavbar />
                 <div className="row">
                     <div className="container mt-4 mb-4">
                         <div className="row">

@@ -1,4 +1,3 @@
-import BNavbar from './components/Navbar/Navbar'
 import Homepage from './components/Homepage/Homepage';
 import Footer from './components/Footer/Footer';
 
@@ -11,13 +10,13 @@ import Premium from './pages/Premium/Premium';
 import News from './pages/News/News';
 import Login from './pages/Login/Login';
 import Signup from './pages/Signup/Signup';
+import MyProfile from './pages/Developers/MyProfile';
 
 
 const App = () => {
   return (
     <Router>
     
-      <BNavbar />
       <Switch>
         <Route path='/' exact component={Homepage} />
         <Route path='/about' component={About} />
@@ -28,9 +27,9 @@ const App = () => {
         <Route path='/news' component={News}/>
         <Route path='/login' component={Login}/>
         <Route path='/sign-up' component={Signup} />
+        <Route path='/my-profile' exact component={MyProfile} />
       </Switch>
       <Footer />
-      
     </Router>
   )
 }

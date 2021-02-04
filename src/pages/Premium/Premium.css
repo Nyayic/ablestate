@@ -1,0 +1,18 @@
+.dev-card{
+    border-color: orange;
+}
+.premium-dev-image{
+    height: 180px;
+    width: 180px;
+    border-radius: 100px;
+    padding: 20px;
+}
+
+.premium-dev-cardbody{
+    padding-top: 50px;
+    /* padding: 20px; */
+}
+
+.bio{
+    padding: 20px;
+}

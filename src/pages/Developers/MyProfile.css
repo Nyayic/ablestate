@@ -1,0 +1,19 @@
+#dev-profile-img{
+    height: 50px;
+    width: 60px;
+    border-radius: 30px;
+
+}
+.profile-icons{
+    padding-right: 20px;
+    color: ffffff;
+}
+#dev-profile-img-bottom{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    background: transparent;
+    top: -100px;
+    position: relative;
+
+}

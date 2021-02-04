@@ -1,10 +1,12 @@
 import React from 'react';
+import BNavbar from '../../components/Navbar/Navbar';
 import Logo from '../../images/logo.png';
 import './Login.css';
 
  function Login (){
      return(
         <div className="container-fluid bg-light">
+            <BNavbar/>
             <div className="row bg-light">
                 <div className="container mt-4 mb-4 jumbotron bg-white">
                     <div className="row login-row">
