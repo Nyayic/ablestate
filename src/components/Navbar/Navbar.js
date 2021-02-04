@@ -1,8 +1,4 @@
 import * as React from 'react';
-// import Routes from '../../routes/Routes';
-// pages 
-// import About from '../../pages/About/About';
-// import Employers from '../../pages/Employers/Employers';
 
 
 import Nav from 'react-bootstrap/Nav'
@@ -15,8 +11,8 @@ import './Navbar.css'
 
 function BNavbar(){
     return(
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-         <Container  className="main-nav">
+        <Navbar className="bg-dark flex-column flex-md-row" collapseOnSelect expand  variant="dark" fixed="top">
+         <Container>
             <Navbar.Brand href="/">
               <img src={Logo} alt="Logo" className="nav-logo"/>
             </Navbar.Brand>

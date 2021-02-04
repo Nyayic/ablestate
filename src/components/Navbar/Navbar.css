@@ -4,7 +4,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
-
+    background: transparent;
     color: #FFFFFF;
 
 }
@@ -13,16 +13,16 @@
     font-weight: bold;
 }
 
-.main-nav{ 
+ .main-nav{ 
     background: #1C2327;
     border: 1px solid #000000;
     box-sizing: border-box; 
-}
+} 
 
-/* .right-nav{
+.right-nav{
     margin-left: 50px; 
     font-size: 20px;
-} */
+} 
 .signup-btn.btn-primary{
     background-color: #E35F0D;
     border-radius: 5px;
@@ -39,7 +39,7 @@
     width: 58px;
 }
 
-/* 
+
 .signup-btn{
     width: 130px;
     height: 60px;
@@ -48,8 +48,8 @@
     font-weight: bold;
     font-size: 20px;
     color: #FFFFFF;
-} */
-.signup-btn.btn-primary:hover{
+} 
+ .signup-btn.btn-primary:hover{
     color: #E35F0D;
     font-weight: bold;
     background: #000000;
@@ -66,4 +66,4 @@
     margin-top: 5px;
 
     color: #FFFFFF; 
-} 
+}  

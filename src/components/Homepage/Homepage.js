@@ -30,10 +30,10 @@ import './Homepage.css';
 
 function Homepage() {
     return(
-
+        <>
+        <BNavbar />
         <Container fluid>
-
-            <BNavbar />
+            
             <Row className="bg-dark intro-row">
                 <Col>
                     <h1 className="header">
@@ -130,6 +130,9 @@ function Homepage() {
                             </Card.Body> 
                         </Card>
                     </CardDeck>
+                    {/* <svg viewBox="0 0 100 100" preserveAspectRatio="none">
+                        <polygon points="0,0 100,0 200,200" style="fill:grey;stroke:lightgrey; stroke-width: 2; stroke-dasharray: 0,200,250" />
+                    </svg> */}
                 </div>
                 
 
@@ -416,6 +419,7 @@ function Homepage() {
            
    
         </Container>
+    </>
     );
 }
 export default Homepage;
