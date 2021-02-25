@@ -1,10 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
+
 import BNavbar from '../../components/Navbar/Navbar';
 import Logo from '../../images/logo.png';
 import './Login.css';
 
- function Login (){
-     return(
+import PropTypes from 'prop-types';
+
+async function loginUser(credentials) {
+    return fetch('http://localhost:8080/login', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(credentials)
+    })
+      .then(data => data.json())
+}
+
+function Login ({setToken}){
+    const [username, setUserName] = useState();
+    const [password, setPassword] = useState();
+
+    const handleSubmit = async e => {
+        e.preventDefault();
+        const token = await loginUser({
+          username,
+          password
+        });
+        setToken(token);
+    }
+
+    return(
         <div className="container-fluid bg-light">
             <BNavbar/>
             <div className="row bg-light">
@@ -27,9 +53,15 @@ import './Login.css';
                                 <hr/>
                             </div>
 
-                        <div className="col-md-12 ">
-                            <input type="text" className="form-control" placeholder="Enter your email address"/> <br/>
-                            <input type="password" className="form-control" placeholder="Enter your password"/> <br/>
+                        <form className="col-md-12" onSubmit={handleSubmit}>
+                            <input type="text" className="form-control" 
+                            placeholder="Enter your email address"
+                            onChange={e => setUserName(e.target.value)}/> <br/>
+                            
+                            <input type="password" className="form-control" 
+                            placeholder="Enter your password"
+                            onChange={e => setPassword(e.target.value)}/> <br/>
+
                             <input type="button" className="form-control sign-in-btn" value="Sign In"/>
 
                             <div className="login-footer">
@@ -47,7 +79,7 @@ import './Login.css';
 
                                 </div>
                             </div>
-                        </div>
+                        </form>
 
                     </div>
                     
@@ -57,4 +89,8 @@ import './Login.css';
      );
  }
 
- export default Login;
+ Login.propTypes = {
+    setToken: PropTypes.func.isRequired
+  }
+
+export default Login;

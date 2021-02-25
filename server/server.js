@@ -1,6 +1,13 @@
 const express = require('express');
+const cors = require('cors')
 const app = express();
 
-app.get('/hey', (req, res) => res.send('ho!'))
+app.use(cors());
 
-app.listen(8080)
+app.use('/login', (req, res) => {
+  res.send({
+    token: 'testing'
+  });
+});
+
+app.listen(8080, () => console.log('API is running on http://localhost:8080/login'));

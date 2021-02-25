@@ -87,7 +87,7 @@ function Homepage() {
                     <h3 className="featured-devs-intro">Source active engineers fit for your Team</h3>
                 </div>
                 {/* Featured developers start here */}
-                <div className="container-fluid slanted bg-warning">
+                <div className="container-fluid slanted bg-white">
                 <div className="container mt-4 mb-4 ">
                     <div className="row mt-4 slanted-items">
                         <CardDeck className="col-md-12">

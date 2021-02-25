@@ -12,8 +12,14 @@ import Login from './pages/Login/Login';
 import Signup from './pages/Signup/Signup';
 import MyProfile from './pages/Developers/MyProfile';
 
+import React, { useState } from 'react';
 
 const App = () => {
+  const [token, setToken] = useState();
+  if(!token) {
+    return <Login setToken={setToken} />
+  }
+
   return (
     <Router>
     
